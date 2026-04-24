@@ -10,5 +10,5 @@ Basic ROS 2 publisher and subscriber communication using Python.
 - Python
 
 ## Run
-ros2 run ros2_basic publisher
+ros2 run ros2_basic publisher  
 ros2 run ros2_basic subscriber
