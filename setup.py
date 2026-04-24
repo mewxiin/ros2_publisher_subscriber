@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'ros2_proj'
+package_name = 'ros2_publisher_subscriber'
 
 setup(
     name=package_name,
@@ -25,8 +25,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'publisher = ros2_proj.publisher:main',
-            'subscriber = ros2_proj.subscriber:main',
+            'publisher = ros2_publisher_subscriber.publisher:main',
+            'subscriber = ros2_publisher_subscriber.subscriber:main',
         ],
     },
 )
