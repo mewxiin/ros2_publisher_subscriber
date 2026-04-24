@@ -1,3 +1,0 @@
-[console_scripts]
-publisher = ros2_proj.publisher:main
-subscriber = ros2_proj.subscriber:main
