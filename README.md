@@ -5,10 +5,34 @@ Basic ROS 2 publisher and subscriber communication using Python.
 - Publisher node sending messages
 - Subscriber node receiving messages
 
-## Technologies
-- ROS2
-- Python
+## Prerequisites
+- Ubuntu 24.04 (or compatible Linux distro)
+- ROS 2 Kilted Kaiju
+- Python 3.12+
 
-## Run
-ros2 run ros2_basic publisher  
-ros2 run ros2_basic subscriber
+## Installation
+1. Creating a workspace:
+  ``` Bash
+  mkdir -p ~/ros2_ws/src
+  cd ~/ros2_ws/src
+  ```
+2. Cloning the Repository:
+  ``` Bash
+  git clone https://github.com/mewxiin/ros2_publisher_subscriber/
+  ```
+3. Building the package
+  ``` Bash
+  cd ~/ros2_ws
+  colcon build
+  ```
+4. Running the system
+   Terminal 1:
+  ``` Bash
+  source install/setup.bash
+  ros2 run ros2_proj publisher
+  ```
+  Terminal 2:
+  ``` Bash
+  source install/setup.bash
+  ros2 run ros2_proj subscriber
+  ```
