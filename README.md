@@ -28,12 +28,12 @@ Basic ROS 2 publisher and subscriber communication using Python.
 4. Running the system
    Terminal 1:
   ``` Bash
-  cd ~/ros2_ws
   source install/setup.bash
   ros2 run ros2_publisher_subscriber publisher
   ```
   Terminal 2:
   ``` Bash
+  cd ~/ros2_ws
   source install/setup.bash
   ros2 run ros2_publisher_subscriber subscriber
   ```
