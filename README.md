@@ -29,10 +29,10 @@ Basic ROS 2 publisher and subscriber communication using Python.
    Terminal 1:
   ``` Bash
   source install/setup.bash
-  ros2 run ros2_proj publisher
+  ros2 run ros2_publisher_subscriber publisher
   ```
   Terminal 2:
   ``` Bash
   source install/setup.bash
-  ros2 run ros2_proj subscriber
+  ros2 run ros2_publisher_subscriber subscriber
   ```
