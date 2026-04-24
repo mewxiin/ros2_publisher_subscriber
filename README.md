@@ -23,7 +23,7 @@ Basic ROS 2 publisher and subscriber communication using Python.
 3. Building the package
   ``` Bash
   cd ~/ros2_ws
-  colcon build --packages-select ros2_proj
+  colcon build
   ```
 4. Running the system
    Terminal 1:
